@@ -5,4 +5,43 @@ html, body {
     font-size: 15px;
     /* ovu velicnu fonta treba jos podesit  */
     line-height: 1.5;
+
 }
+
+.navbar {
+    height: 10vh;
+    
+    /* shadow */
+    box-shadow:
+    0px 3.2px 1.2px rgba(0, 0, 0, 0.026),
+    0px 7px 2.7px rgba(0, 0, 0, 0.046),
+    0px 11.7px 4.6px rgba(0, 0, 0, 0.066),
+    0px 17.6px 6.9px rgba(0, 0, 0, 0.087),
+    0px 25.4px 10px rgba(0, 0, 0, 0.111),
+    0px 36px 14.2px rgba(0, 0, 0, 0.139),
+    0px 51px 20.1px rgba(0, 0, 0, 0.172),
+    0px 74.1px 29.2px rgba(0, 0, 0, 0.214),
+    0px 114.2px 45px rgba(0, 0, 0, 0.274),
+    0px 203px 80px rgba(0, 0, 0, 0.4)
+    ;
+    z-index: 10;
+}
+.navbar-bg-color {
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(50,50,50,1) 55%, rgba(24,24,24,1) 100%);
+    
+}
+.navbar-brand {
+    color: #fff;
+}
+.nav-link {
+    color: hsl(0, 0%, 88%);
+}
+/* HOVER  */
+.nav-link:hover {
+    color: hsl(0, 0%, 99%);
+    border-bottom: 3px solid white;
+    background-color: red;
+}
+
+/* boje */
